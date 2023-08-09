@@ -1,0 +1,6 @@
+void test()
+{
+	response = getUrl("https://raw.githubusercontent.com/valartri/tracking-json/main/response_request1.json");
+	
+	info response.toJSONList().getJSON("uuid");
+}

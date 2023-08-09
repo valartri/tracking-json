@@ -1,0 +1,10 @@
+void test()
+{
+	response = getUrl("https://raw.githubusercontent.com/valartri/tracking-json/main/response_valid.json");
+	result = response.toJSONList();
+	
+ eta_date = result.getJSON("shipments").getJSON("lastState").getJSON("date");
+ eta_datetime =  toDateTime(eta_date);
+ info eta_datetime.getDate(); 
+ info eta_datetime.getTime();
+}
