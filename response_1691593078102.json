@@ -1,0 +1,164 @@
+{
+  "uuid": "64d3a9497dfb601efa00a533",
+  "shipments": [
+    {
+      "states": [
+        {
+          "location": "VALENCIA, Spain",
+          "date": "2023-08-09T00:00:00Z",
+          "carrier": 0,
+          "status": "Empty received at CY. Vessel: EMPTY"
+        },
+        {
+          "location": "RIBA ROJA DE TURIA, Spain",
+          "date": "2023-08-09T00:00:00Z",
+          "carrier": 0,
+          "status": "Full Delivered to Consignee. Vessel: LADEN"
+        },
+        {
+          "location": "VALENCIA, Spain",
+          "date": "2023-08-09T00:00:00Z",
+          "carrier": 0,
+          "status": "Import to consignee. Vessel: LADEN"
+        },
+        {
+          "location": "VALENCIA, Spain",
+          "date": "2023-08-09T00:00:00Z",
+          "carrier": 0,
+          "status": "Import Discharged from Vessel. Vessel: MSC ANCHORAGE. Voyage: MA324R"
+        },
+        {
+          "location": "COLOMBO, Sri Lanka",
+          "date": "2023-07-22T00:00:00Z",
+          "carrier": 0,
+          "status": "Full Transshipment Loaded. Vessel: MSC ANCHORAGE. Voyage: MA324R"
+        },
+        {
+          "location": "COLOMBO, Sri Lanka",
+          "date": "2023-07-21T00:00:00Z",
+          "carrier": 0,
+          "status": "Full Transshipment Positioned In. Vessel: LADEN"
+        },
+        {
+          "location": "COLOMBO, Sri Lanka",
+          "date": "2023-07-21T00:00:00Z",
+          "carrier": 0,
+          "status": "Full Transshipment Positioned Out. Vessel: LADEN"
+        },
+        {
+          "location": "COLOMBO, Sri Lanka",
+          "date": "2023-07-18T00:00:00Z",
+          "carrier": 0,
+          "status": "Full Transshipment Discharged. Vessel: X-PRESS MEGHNA. Voyage: 23154"
+        },
+        {
+          "location": "TUTICORIN, India",
+          "date": "2023-07-17T00:00:00Z",
+          "carrier": 0,
+          "status": "Export Loaded on Vessel. Vessel: X-PRESS MEGHNA. Voyage: 23153"
+        },
+        {
+          "location": "TUTICORIN, India",
+          "date": "2023-07-17T00:00:00Z",
+          "carrier": 0,
+          "status": "Export received at CY. Vessel: LADEN"
+        },
+        {
+          "location": "TUTICORIN, India",
+          "date": "2023-07-15T00:00:00Z",
+          "carrier": 0,
+          "status": "Empty to Shipper. Vessel: EMPTY"
+        }
+      ],
+      "origin": "India",
+      "destination": "Spain",
+      "carriers": [
+        "MSC"
+      ],
+      "externalTracking": [
+        {
+          "url": "https://www.msc.com/track-a-shipment",
+          "method": "GET",
+          "copy": true,
+          "slug": "msc",
+          "trackingId": "MEDUIV900861",
+          "title": "MSC"
+        }
+      ],
+      "attributes": [
+        {
+          "l": "tracking_id",
+          "val": "MEDUIV900861"
+        },
+        {
+          "l": "origin",
+          "val": "India",
+          "code": "IN"
+        },
+        {
+          "l": "destination",
+          "val": "Spain",
+          "code": "ES"
+        },
+        {
+          "l": "from",
+          "val": "TUTICORIN, IN"
+        },
+        {
+          "l": "to",
+          "val": "VALENCIA, ES"
+        },
+        {
+          "l": "attr",
+          "n": "Transshipment port",
+          "val": "COLOMBO, LK"
+        },
+        {
+          "l": "container",
+          "n": "Container #",
+          "val": "TRIU8869400"
+        },
+        {
+          "l": "container",
+          "val": "40' HIGH CUBE REEFER"
+        },
+        {
+          "l": "reference",
+          "n": "B/L Number",
+          "val": "MEDUIV900861"
+        },
+        {
+          "l": "days_transit",
+          "n": "Days in transit",
+          "val": "25"
+        }
+      ],
+      "services": [
+        {
+          "slug": "msc",
+          "name": "MSC"
+        }
+      ],
+      "detected": [
+        0
+      ],
+      "detectedCarrier": {
+        "name": "MSC",
+        "slug": "msc"
+      },
+      "carrier": 0,
+      "checkedCountryCode": null,
+      "destinationCode": "ES",
+      "originCode": "IN",
+      "status": "transit",
+      "trackingId": "MEDUIV900861",
+      "lastState": {
+        "location": "VALENCIA, Spain",
+        "date": "2023-08-09T00:00:00Z",
+        "carrier": 0,
+        "status": "Empty received at CY. Vessel: EMPTY"
+      }
+    }
+  ],
+  "done": true
+}
